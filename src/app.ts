@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('my eCommare port is running1y'); 
+  res.send('my eCommare port is running1y ttt'); 
 });
 
 export default app;
