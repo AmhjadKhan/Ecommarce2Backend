@@ -1,8 +1,9 @@
 {
   "name": "ecommerce2backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/server.js",
   "scripts": {
+    "start:prod": "node ./dist/server.js",
     "build": "tsc",
     "lint": "npx eslint src --ignore-pattern .ts",
     "lint:fix": "npx eslint src --fix",
