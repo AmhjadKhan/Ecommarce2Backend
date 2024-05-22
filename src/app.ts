@@ -1,7 +1,7 @@
 import express, { Request, Response, Application } from 'express';
 const app: Application = express();
 import cors from 'cors';
-const port = 3000;
+// const port = 3000;
 
 // parsers
 app.use(express.json());

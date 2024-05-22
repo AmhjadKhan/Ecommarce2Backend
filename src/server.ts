@@ -4,7 +4,7 @@ import app from './app';
 
 
 // console.log('my name is khan')
-async function main() {
+async function main() { 
   try {
     await mongoose.connect(config.database_url as string);
     app.listen(config.port, () => {
