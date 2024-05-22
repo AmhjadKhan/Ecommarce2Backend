@@ -1,0 +1,191 @@
+[
+    {
+      "name": "iPhone 13 Pro Max",
+      "description": "The iPhone 13 Pro Max is a premium smartphone from Apple, released in September 2021. It features a 6.7-inch Super Retina XDR OLED display with a resolution of 2778 x 1284 pixels. The phone is powered by the A15 Bionic chip, ensuring top-notch performance. The rear camera system includes a 12 MP wide, 12 MP ultrawide, 12 MP telephoto, and a TOF 3D LiDAR scanner for depth sensing. The front camera is a 12 MP wide sensor, perfect for selfies and FaceTime calls. It offers storage options ranging from 128GB to 1TB, catering to various user needs. The battery capacity is 4352 mAh, supporting fast charging at 27W. The phone supports 5G connectivity, enhancing browsing and download speeds. The design includes a stainless steel frame with a Ceramic Shield front cover, providing durability. The iPhone 13 Pro Max runs on iOS, offering a smooth and user-friendly experience. It includes Face ID for secure authentication and Apple Pay for convenient payments. With its advanced camera system, robust performance, and sleek design, the iPhone 13 Pro Max is an excellent choice for users seeking a high-end smartphone.",
+      "price": 1099,
+      "category": "Smartphones",
+      "tags": ["Apple", "iPhone", "Smartphone", "iOS"],
+      "variants": [
+        {
+          "type": "Color",
+          "value": "Graphite"
+        },
+        {
+          "type": "Storage",
+          "value": "256GB"
+        }
+      ],
+      "inventory": {
+        "quantity": 50,
+        "inStock": true
+      }
+    },
+    {
+      "name": "Samsung Galaxy S21 Ultra",
+      "description": "The Samsung Galaxy S21 Ultra is a high-end smartphone released in January 2021. It features a 6.8-inch Dynamic AMOLED 2X display with a resolution of 3200 x 1440 pixels. The phone is powered by the Exynos 2100 (International) or Snapdragon 888 (USA) chipset. The rear camera system includes a 108 MP wide, 12 MP ultrawide, 10 MP periscope telephoto, and 10 MP telephoto lens. The front camera is a 40 MP sensor, ideal for selfies and video calls. It offers storage options ranging from 128GB to 512GB. The battery capacity is 5000 mAh, supporting fast charging at 25W. The phone supports 5G connectivity for faster internet speeds. The design includes a glass front and back with an aluminum frame, providing a premium feel. The Galaxy S21 Ultra runs on Android with Samsung's One UI, offering a smooth and customizable user experience. It includes an ultrasonic fingerprint sensor for secure authentication. With its advanced camera setup, powerful performance, and elegant design, the Samsung Galaxy S21 Ultra is a top choice for tech enthusiasts.",
+      "price": 1199,
+      "category": "Smartphones",
+      "tags": ["Samsung", "Galaxy", "Smartphone", "Android"],
+      "variants": [
+        {
+          "type": "Color",
+          "value": "Phantom Black"
+        },
+        {
+          "type": "Storage",
+          "value": "256GB"
+        }
+      ],
+      "inventory": {
+        "quantity": 30,
+        "inStock": true
+      }
+    },
+    {
+      "name": "Google Pixel 6 Pro",
+      "description": "The Google Pixel 6 Pro is a flagship smartphone released in October 2021. It features a 6.71-inch LTPO AMOLED display with a resolution of 3120 x 1440 pixels. The phone is powered by Google's custom Tensor chipset, ensuring efficient performance. The rear camera system includes a 50 MP wide, 12 MP ultrawide, and 48 MP telephoto lens. The front camera is an 11.1 MP sensor, perfect for selfies and video calls. It offers storage options of 128GB and 256GB. The battery capacity is 5003 mAh, supporting fast charging at 30W. The phone supports 5G connectivity for faster data speeds. The design includes a Gorilla Glass Victus front and back with an aluminum frame, providing durability. The Pixel 6 Pro runs on Android 12, offering a clean and smooth user experience. It includes an under-display fingerprint sensor for secure unlocking. With its impressive camera capabilities, efficient performance, and sleek design, the Google Pixel 6 Pro is a great choice for photography enthusiasts and tech-savvy users.",
+      "price": 899,
+      "category": "Smartphones",
+      "tags": ["Google", "Pixel", "Smartphone", "Android"],
+      "variants": [
+        {
+          "type": "Color",
+          "value": "Cloudy White"
+        },
+        {
+          "type": "Storage",
+          "value": "128GB"
+        }
+      ],
+      "inventory": {
+        "quantity": 40,
+        "inStock": true
+      }
+    },
+    {
+      "name": "OnePlus 9 Pro",
+      "description": "The OnePlus 9 Pro is a high-performance smartphone released in March 2021. It features a 6.7-inch Fluid AMOLED display with a resolution of 3216 x 1440 pixels. The phone is powered by the Snapdragon 888 chipset, ensuring powerful performance. The rear camera system includes a 48 MP wide, 50 MP ultrawide, 8 MP telephoto, and 2 MP monochrome sensor. The front camera is a 16 MP sensor, ideal for selfies and video calls. It offers storage options of 128GB and 256GB. The battery capacity is 4500 mAh, supporting fast charging at 65W. The phone supports 5G connectivity for high-speed internet access. The design includes a Gorilla Glass front and back with an aluminum frame, providing a premium feel. The OnePlus 9 Pro runs on OxygenOS, offering a fast and smooth user experience. It includes an under-display fingerprint sensor for secure authentication. With its advanced camera setup, robust performance, and elegant design, the OnePlus 9 Pro is an excellent choice for tech enthusiasts and power users.",
+      "price": 969,
+      "category": "Smartphones",
+      "tags": ["OnePlus", "OnePlus 9", "Smartphone", "Android"],
+      "variants": [
+        {
+          "type": "Color",
+          "value": "Morning Mist"
+        },
+        {
+          "type": "Storage",
+          "value": "256GB"
+        }
+      ],
+      "inventory": {
+        "quantity": 25,
+        "inStock": true
+      }
+    },
+    {
+      "name": "Sony Xperia 1 III",
+      "description": "The Sony Xperia 1 III is a premium smartphone released in August 2021. It features a 6.5-inch OLED display with a resolution of 3840 x 1644 pixels. The phone is powered by the Snapdragon 888 chipset, ensuring top-notch performance. The rear camera system includes a 12 MP wide, 12 MP ultrawide, 12 MP periscope telephoto, and 0.3 MP TOF 3D sensor. The front camera is an 8 MP sensor, perfect for selfies and video calls. It offers storage options of 256GB and 512GB. The battery capacity is 4500 mAh, supporting fast charging at 30W. The phone supports 5G connectivity for fast internet speeds. The design includes a Gorilla Glass Victus front and Gorilla Glass 6 back with an aluminum frame, providing durability. The Xperia 1 III runs on Android, offering a smooth and customizable user experience. It includes a side-mounted fingerprint sensor for secure authentication. With its advanced camera system, powerful performance, and sleek design, the Sony Xperia 1 III is a top choice for photography enthusiasts and tech-savvy users.",
+      "price": 1299,
+      "category": "Smartphones",
+      "tags": ["Sony", "Xperia", "Smartphone", "Android"],
+      "variants": [
+        {
+          "type": "Color",
+          "value": "Frosted Black"
+        },
+        {
+          "type": "Storage",
+          "value": "256GB"
+        }
+      ],
+      "inventory": {
+        "quantity": 15,
+        "inStock": true
+      }
+    },
+    {
+      "name": "Xiaomi Mi 11 Ultra",
+      "description": "The Xiaomi Mi 11 Ultra is a high-end smartphone released in April 2021. It features a 6.81-inch AMOLED display with a resolution of 3200 x 1440 pixels. The phone is powered by the Snapdragon 888 chipset, ensuring powerful performance. The rear camera system includes a 50 MP wide, 48 MP ultrawide, and 48 MP periscope telephoto lens. The front camera is a 20 MP sensor, ideal for selfies and video calls. It offers storage options of 256GB and 512GB. The battery capacity is 5000 mAh, supporting fast charging at 67W. The phone supports 5G connectivity for faster internet speeds. The design includes a Gorilla Glass front and ceramic back with an aluminum frame, providing a premium feel. The Mi 11 Ultra runs on MIUI, offering a smooth and customizable user experience. It includes an under-display fingerprint sensor for secure unlocking. With its advanced camera capabilities, robust performance, and sleek design, the Xiaomi Mi 11 Ultra is a great choice for photography enthusiasts and power users.",
+      "price": 1199,
+      "category": "Smartphones",
+      "tags": ["Xiaomi", "Mi", "Smartphone", "Android"],
+      "variants": [
+        {
+          "type": "Color",
+          "value": "Ceramic Black"
+        },
+        {
+          "type": "Storage",
+          "value": "256GB"
+        }
+      ],
+      "inventory": {
+        "quantity": 20,
+        "inStock": true
+      }
+    },
+    {
+      "name": "Oppo Find X3 Pro",
+      "description": "The Oppo Find X3 Pro is a flagship smartphone released in March 2021. It features a 6.7-inch AMOLED display with a resolution of 3216 x 1440 pixels. The phone is powered by the Snapdragon 888 chipset, ensuring powerful performance. The rear camera system includes a 50 MP wide, 50 MP ultrawide, 13 MP telephoto, and 3 MP microlens. The front camera is a 32 MP sensor, perfect for selfies and video calls. It offers storage options of 256GB and 512GB. The battery capacity is 4500 mAh, supporting fast charging at 65W. The phone supports 5G connectivity for fast internet speeds. The design includes a Gorilla Glass front and back with an aluminum frame, providing a premium feel. The Find X3 Pro runs on ColorOS, offering a smooth and customizable user experience. It includes an under-display fingerprint sensor for secure unlocking. With its advanced camera setup, robust performance, and sleek design, the Oppo Find X3 Pro is an excellent choice for photography enthusiasts and power users.",
+      "price": 1149,
+      "category": "Smartphones",
+      "tags": ["Oppo", "Find", "Smartphone", "Android"],
+      "variants": [
+        {
+          "type": "Color",
+          "value": "Gloss Black"
+        },
+        {
+          "type": "Storage",
+          "value": "256GB"
+        }
+      ],
+      "inventory": {
+        "quantity": 25,
+        "inStock": true
+      }
+    },
+    {
+      "name": "Asus ROG Phone 5",
+      "description": "The Asus ROG Phone 5 is a gaming-centric smartphone released in March 2021. It features a 6.78-inch AMOLED display with a resolution of 2448 x 1080 pixels. The phone is powered by the Snapdragon 888 chipset, ensuring powerful performance. The rear camera system includes a 64 MP wide, 13 MP ultrawide, and 5 MP macro lens. The front camera is a 24 MP sensor, ideal for selfies and video calls. It offers storage options of 128GB and 256GB. The battery capacity is 6000 mAh, supporting fast charging at 65W. The phone supports 5G connectivity for faster internet speeds. The design includes a Gorilla Glass front and back with an aluminum frame, providing durability. The ROG Phone 5 runs on ROG UI, offering a customized and smooth user experience. It includes an under-display fingerprint sensor for secure unlocking. With its advanced gaming features, powerful performance, and robust design, the Asus ROG Phone 5 is a top choice for mobile gamers.",
+      "price": 999,
+      "category": "Smartphones",
+      "tags": ["Asus", "ROG", "Smartphone", "Android"],
+      "variants": [
+        {
+          "type": "Color",
+          "value": "Phantom Black"
+        },
+        {
+          "type": "Storage",
+          "value": "256GB"
+        }
+      ],
+      "inventory": {
+        "quantity": 30,
+        "inStock": true
+      }
+    },
+    {
+      "name": "Huawei Mate 40 Pro",
+      "description": "The Huawei Mate 40 Pro is a high-end smartphone released in November 2020. It features a 6.76-inch OLED display with a resolution of 2772 x 1344 pixels. The phone is powered by the Kirin 9000 chipset, ensuring powerful performance. The rear camera system includes a 50 MP wide, 12 MP periscope telephoto, and 20 MP ultrawide lens. The front camera is a 13 MP sensor, perfect for selfies and video calls. It offers storage options of 256GB and 512GB. The battery capacity is 4400 mAh, supporting fast charging at 66W. The phone supports 5G connectivity for faster internet speeds. The design includes a Gorilla Glass front and back with an aluminum frame, providing durability. The Mate 40 Pro runs on EMUI, offering a smooth and customizable user experience. It includes a side-mounted fingerprint sensor for secure unlocking. With its advanced camera capabilities, robust performance, and sleek design, the Huawei Mate 40 Pro is a great choice for photography enthusiasts and tech-savvy users.",
+      "price": 1199,
+      "category": "Smartphones",
+      "tags": ["Huawei", "Mate", "Smartphone", "Android"],
+      "variants": [
+        {
+          "type": "Color",
+          "value": "Mystic Silver"
+        },
+        {
+          "type": "Storage",
+          "value": "256GB"
+        }
+      ],
+      "inventory": {
+        "quantity": 20,
+        "inStock": true
+      }
+    }
+]
