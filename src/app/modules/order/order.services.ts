@@ -1,24 +1,59 @@
-import { TOrder } from './order.interface';
-import { OrderModel } from './order.model';
+import { Product } from "../product/product.model";
+import { TOrder } from "./order.interface";
+import { Order } from "./order.model";
 
-const createOrderIntoDB = async (orderData: TOrder) => {
-  const newOrder = new OrderModel(orderData);
-  const result = await newOrder.save();
+
+class AppError extends Error {
+  constructor(
+    public message: string,
+    public statusCode: number,
+  ) {
+    super(message);
+  }
+}
+
+// Create an order
+const createOrder = async (orderData: TOrder) => {
+  // Check if the product exists
+  const product = await Product.findById(orderData.productId);
+  if (!product) {
+    throw new Error("Product not found");
+  }
+
+  // Check if there is sufficient stock
+  if (product.inventory.quantity < orderData.quantity) {
+    throw new Error("Insufficient stock");
+  }
+
+  // Update the inventory
+  product.inventory.quantity -= orderData.quantity;
+  product.inventory.inStock = product.inventory.quantity > 0;
+
+  // Save the updated product
+  await product.save();
+
+  // Create the order
+  const result = await Order.create(orderData);
   return result;
 };
 
-const getAllOrdersFromDB = async () => {
-  const orders = await OrderModel.find();
-  return orders;
+// Get all orders
+const getAllOrders = async () => {
+  const result = await Order.find();
+  return result;
 };
 
-const getOrdersByEmailFromDB = async (email: string) => {
-  const orders = await OrderModel.find({ email });
-  return orders;
+// Get orders by email
+const getOrdersByEmail = async (email: string) => {
+  const result = await Order.find({ email });
+  return result;
 };
 
 export const OrderServices = {
-  createOrderIntoDB,
-  getAllOrdersFromDB,
-  getOrdersByEmailFromDB,
+  createOrder,
+  getAllOrders,
+  getOrdersByEmail,
+  AppError,
 };
+
+export { AppError };  
