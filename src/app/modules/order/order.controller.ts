@@ -51,3 +51,8 @@ export const getOrdersByEmail = async (req: Request, res: Response) => {
     });
   }
 };
+export const OrderControllers = {
+  createOrder,
+  getAllOrders,
+  getOrdersByEmail,
+};
