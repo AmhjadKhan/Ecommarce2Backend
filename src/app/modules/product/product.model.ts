@@ -1,98 +1,55 @@
-import { Schema, model } from 'mongoose';
-// import config from '../../config';
-import { ProductModel, TProduct, TVariant, TInventory } from './product.interface';
+import { Schema, model } from "mongoose";
+import { TProduct, TVarients } from "./product.interface";
 
-const variantSchema = new Schema<TVariant>({
+const variantsSchema = new Schema<TVarients>({
   type: {
     type: String,
     required: true,
   },
   value: {
     type: String,
-    required: true, 
+    required: true,
   },
 });
 
-
-
-const inventorySchema = new Schema<TInventory>({
-  quantity: {
+const productSchema = new Schema<TProduct>({
+  name: {
+    type: String,
+    required: true,
+  },
+  description: {
+    type: String,
+    required: true,
+  },
+  price: {
     type: Number,
     required: true,
-    min: 0,
   },
-  inStock: {
-    type: Boolean,
-    required: true, 
+  category: {
+    type: String,
+    required: true,
+  },
+  tags: {
+    type: [String],
+    default: [],
+  },
+  variants: {
+    type: [variantsSchema],
+    default: [],
+  },
+  inventory: {
+    type: {
+      quantity: {
+        type: Number,
+        required: true,
+      },
+      inStock: {
+        type: Boolean,
+        required: true,
+      },
+    },
+    required: true,
   },
 });
 
-const productSchema = new Schema<TProduct, ProductModel>(
-  {
-    name: {
-      type: String,
-      required: true, 
-      trim: true,
-    },
-    description: {
-      type: String,
-      required: true, 
-      trim: true,
-    },
-    price: {
-      type: Number,
-      required: true, 
-      min: 0, 
-    },
-    category: {
-      type: String,
-      required: true, 
-      trim: true,
-    },
-    tags: {
-      type: [String],
-      default: [],
-    },
-    variants: {
-      type: [variantSchema],
-      default: [],
-    },
-    inventory: {
-      type: inventorySchema,
-      required: true, 
-    },
-  },
-  {
-    toJSON: {
-      virtuals: true,
-    },
-  },
-);
-
-// Virtual field for availability status
-productSchema.virtual('availabilityStatus').get(function () {
-  return this.inventory.inStock ? 'In Stock' : 'Out of Stock';
-});
-
-// Query middleware to exclude deleted products
-productSchema.pre('find', function (next) {
-  this.find({ isDeleted: { $ne: true } });
-  next();
-});
-
-productSchema.pre('findOne', function (next) {
-  this.find({ isDeleted: { $ne: true } });
-  next();
-});
-
-productSchema.pre('aggregate', function (next) {
-  this.pipeline().unshift({ $match: { isDeleted: { $ne: true } } });
-  next();
-});
-
-// Static method to find a product by name
-productSchema.statics.findProductByName = async function (name: string) {
-  return this.findOne({ name });
-};
-
-export const Product = model<TProduct, ProductModel>('Product', productSchema);
+export const Product = model<TProduct>("Product", productSchema);

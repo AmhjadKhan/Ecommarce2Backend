@@ -1,14 +1,12 @@
-import express from 'express';
-import { ProductControllers } from './product.controller';
+import express from "express";
+import { ProductControllers } from "./product.controller";
 
 const router = express.Router();
 
-router.post('/', ProductControllers.createProduct);
-router.get('/', ProductControllers.getAllProducts);
-router.get('/:productId', ProductControllers.getProductById);
-router.put('/:productId', ProductControllers.updateProductById);
-router.delete('/:productId', ProductControllers.deleteProductById);
-router.get('/products/search', ProductControllers.searchProducts);
-
+router.post("/", ProductControllers.createProduct);
+router.get("/:productId", ProductControllers.getProductById);
+router.get("/", ProductControllers.getAllProducts);
+router.put("/:productId", ProductControllers.updateProduct);
+router.delete("/:productId", ProductControllers.deleteProduct);
 
 export const ProductRoutes = router;

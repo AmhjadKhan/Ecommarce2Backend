@@ -1,13 +1,6 @@
-import { Model } from 'mongoose';
-
-export type TVariant = {
+export type TVarients = {
   type: string;
   value: string;
-};
-
-export type TInventory = {
-  quantity: number;
-  inStock: boolean;
 };
 
 export type TProduct = {
@@ -16,12 +9,9 @@ export type TProduct = {
   price: number;
   category: string;
   tags: string[];
-  variants: TVariant[];
-  inventory: TInventory;
+  variants: [TVarients];
+  inventory: {
+    quantity: number;
+    inStock: boolean;
+  };
 };
-
-// For creating static methods
-export interface ProductModel extends Model<TProduct> {
-  findProductByName(name: string): Promise<TProduct | null>;
-}
-
