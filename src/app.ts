@@ -9,8 +9,8 @@ import { orderRoutes } from './app/modules/order/order.route';
 app.use(express.json());
 app.use(cors());
 
+// api routes 
 app.use('/api/products', ProductRoutes)
-
 app.use('/api/orders', orderRoutes)
 
 
